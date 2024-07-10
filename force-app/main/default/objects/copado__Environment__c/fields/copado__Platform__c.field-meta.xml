@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Platform__c</fullName>
+    <defaultValue>&quot;Salesforce&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Platform</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SFDX</fullName>
+                <default>true</default>
+                <label>SFDX</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>copado_sfcc</fullName>
+                <default>false</default>
+                <label>copado_sfcc</label>
+            </value>
+            <value>
+                <fullName>copado_sfmc</fullName>
+                <default>false</default>
+                <label>copado_sfmc</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
